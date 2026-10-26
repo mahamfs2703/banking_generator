@@ -1,3 +1,8 @@
+# db.py is the front door. 
+# It checks your PG* environment variables exist, refuses the -pooler host, and connects. 
+# If the connection fails, it retries a few times with growing pauses. 
+# It reads credentials from environment variables, so the password never sits in a file or on screen.
+
 import os
 import sys
 import time
