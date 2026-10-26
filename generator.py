@@ -1,3 +1,5 @@
+# generator.py is the manager. It runs a loop forever: pick an event, run it, commit, sleep, repeat.
+
 import argparse
 import random
 import sys
