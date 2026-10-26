@@ -1,3 +1,11 @@
+# changes.py changes or removes existing things:
+# 1. settle a PENDING transaction into COMPLETED or FAILED, and move the account balance when it completes
+# 2. reverse a COMPLETED one
+# 3. freeze or close an account
+# 4. verify a customer’s KYC
+# 5. change a customer’s city
+# 6. delete a FAILED transaction, or a customer with no accounts
+
 import random
 
 from inserts import CITIES
