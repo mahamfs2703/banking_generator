@@ -1,3 +1,7 @@
+# inserts.py creates new things: a customer, an account, a merchant, a transaction. 
+# Each function picks random but valid values. 
+# Examples: a PURCHASE gets a merchant while a DEPOSIT doesn’t, amounts are skewed so most are small and a few are big, and a CREDIT account starts at 0.
+
 import random
 from decimal import Decimal
 
